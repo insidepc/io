@@ -51,7 +51,7 @@ $(function() {
       $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
       return false;
     });
-  });
+  });.
   npm install -g firebase-tools
   firebase login
   firebase init
