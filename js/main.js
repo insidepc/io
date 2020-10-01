@@ -52,4 +52,8 @@ $(function() {
       return false;
     });
   });
- 
+  npm install -g firebase-tools
+  firebase login
+  firebase init
+  firebase deploy
+  google-site-verification=JGR6gpfkiiz7XlB9hRuO08-Ub8HyUmnhhQ7Z8Wg17bw
