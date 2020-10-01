@@ -52,4 +52,3 @@ $(function() {
       return false;
     });
   });
-  google-site-verification=JGR6gpfkiiz7XlB9hRuO08-Ub8HyUmnhhQ7Z8Wg17bw
