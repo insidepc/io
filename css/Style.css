@@ -7,13 +7,7 @@ html, body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
-.dark-mode {
-    background-color: #2d2d2d;
-    color: white;
-  }
-  h3{
-      color: #f7882f;
-  }
+
   .p1{
       color: #0f0f0f;
   }
@@ -71,6 +65,7 @@ h2{
 h3{
     font-family: var(--Abel);
     font-size: 1.3rem;
+    color: #0BD4EC;
 }
 
 button.btn{
@@ -159,7 +154,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover a{
-    color: #f7882f;
+    color: #0BD4EC;
 }
 
 .nav .nav-brand a{
@@ -268,7 +263,7 @@ section .container .owl-nav{
 
 .owl-nav .owl-prev .owl-nav-prev,
 .owl-nav .owl-next .owl-nav-next{
-    color: #f7882f;
+    color: #0BD4EC;
     background: transparent;
     font-size: 2rem;
 }
@@ -309,7 +304,7 @@ main .site-content .post-content > .post-image .post-info{
     bottom: 0%;
     left: 20vw;
     border-radius: 3rem;
-    color: #f7882f;
+    color: #0BD4EC;
 }
 
 main .site-content .post-content > .post-image > div{
@@ -318,7 +313,7 @@ main .site-content .post-content > .post-image > div{
 
 main .site-content .post-content > .post-image .img{
     width: 100%;
-    transition: all 1s ease;
+    transition: all 500ms ease;
 }
 
 main .site-content .post-content > .post-image .img:hover{
@@ -338,12 +333,12 @@ main .post-content .post-title a{
     border-radius: 0;
     padding: .7rem 1.5rem;
     background: #0f2862;
-    color: #f7882f;
+    color: #0BD4EC;
 }
 
 .site-content .pagination{
     justify-content: center;
-    color: #f7882f;
+    color: #0BD4EC;
     margin: 4rem 0;
 }
 
