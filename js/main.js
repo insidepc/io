@@ -56,3 +56,4 @@ $(function() {
   firebase login
   firebase init
   "site": "insidepc.netlify.app",
+  firebase deploy --only hosting:insidepc.netlify.app
