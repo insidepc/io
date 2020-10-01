@@ -52,8 +52,4 @@ $(function() {
       return false;
     });
   });
-  npm install -g firebase-tools
-  firebase login
-  firebase init
-  "site": "insidepc.netlify.app",
-  firebase deploy --only hosting:insidepc.netlify.app
+  google-site-verification=JGR6gpfkiiz7XlB9hRuO08-Ub8HyUmnhhQ7Z8Wg17bw
