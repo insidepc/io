@@ -52,3 +52,7 @@ $(function() {
       return false;
     });
   });
+  npm install -g firebase-tools
+  firebase login
+  firebase init
+  "site": "insidepc.netlify.app",
