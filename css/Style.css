@@ -461,6 +461,23 @@ main .post-content .post-title a{
         background: transparent;
         color: white;
     }
+    .nav{
+        background: #1e1f23;
+    }
+    .nav .nav-items .nav-link a{
+        color: #e3dddc;
+    }
+    .nav .toggle-collapse .toggle-icons i{
+        font-size: 1.4rem;
+        color: #e3dddc;
+    }
+    .text-gray{
+        color: #e3dddc;
+    }
+    .nav .social i{
+        color: #e3dddc;
+    }
+    
   }
 
 /*----x-----dark mode------x-----*/
