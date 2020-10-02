@@ -102,7 +102,7 @@ p{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 8vh;
     overflow: hidden;
     transition: height 0.6s ease-in-out;
 }
@@ -453,8 +453,11 @@ main .post-content .post-title a{
         left: 2rem !important;
         bottom: 1.2rem !important;
         border-radius: 0% !important;
+    
     }
-
+    main .blog{
+        height: vh;
+    }
     .site-content .sidebar .popular-post .post-info{
         display: none !important;
     }
@@ -468,6 +471,15 @@ main .post-content .post-title a{
 
 /*              Viewport less then or equal to 750px            */
 
+@media only screen and (max-width: 1024px){
+    main .blog{
+        height: 50vh;
+    }
+
+}
+
+
+
 @media only screen and (max-width: 750px){
     .nav .nav-menu, .nav .nav-items{
         flex-direction: column;
@@ -479,10 +491,13 @@ main .post-content .post-title a{
 
     main .site-content{
         grid-template-columns: 100%;
+
+    }
         main .blog{
-            height: 100vh;
+            height: 0vh;
         }
     }
+
 
     
 
@@ -510,9 +525,20 @@ main .post-content .post-title a{
     }
 
 }
+@media only screen and (max-height: 720px){
+    main .blog{
+        height: 90vh;
+    }
+}
 
 /*        x      Viewport less then or equal to 520px       x     */
-@media only screen and (max-width: 375px){
+@media only screen and (max-height: 825px){
     main .blog{
-        height: 80vh;
+        height: 70vh;
     }
+}
+@media only screen and (max-height: 720px){
+    main .blog{
+        height: 85vh;
+    }
+}
