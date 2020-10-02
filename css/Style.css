@@ -438,20 +438,8 @@ main .post-content .post-title a{
 
 
 /* -------x-------- Site Content --------x-------*/
-:root {
-    --background-color: #f7f6ee;
-    --secondary-color: #fbfefb;
-    --text-dark: #101010;
-    --text: #333333;
-    --text-light: #7b7b85;
-    --text-lighter: #ababab;
-    --blue: #3498db;
-    --green: #27ae60;
-    --yellow: #feca57;
-    --red: #c0392b;
-    --white: #ffffff;
-  }
-  /* Sample css for an element */
+
+/*---------dark mode-----------*/
   body {
     background: var(--background-color);
     color: var(--text);
@@ -464,9 +452,18 @@ main .post-content .post-title a{
       --text: #c4c5c9;
       --text-light: #6c6d71;
       --text-lighter: #8e8f93;
+      
+    }
+    .p1{
+        color: white;
+    }
+    .owl-theme .owl-nav [class*='owl-']:hover{
+        background: transparent;
+        color: white;
     }
   }
 
+/*----x-----dark mode------x-----*/
 
 /* ---------x------- Main Content -----x----- */
 
