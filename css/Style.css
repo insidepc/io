@@ -21,7 +21,7 @@ html, body{
     --text-gray: #3f4954;
     --text-light : #686666da;
     --bg-color: #0f0f0f;
-    --white: #ffffff;
+    --white: #e3dddc;
     --midnight: #104f55;
 
     /*      theme font-family   */
@@ -99,7 +99,7 @@ p{
 /* --------------- navbar ----------------- */
 
 .nav{
-    background: white;
+    background:  #e3dddc;
     padding: 0 2rem;
     height: 0rem;
     min-height: 8vh;
@@ -369,7 +369,7 @@ main .post-content .post-title a{
     
   }
   p{
-    color: white;
+    color:  #e3dddc;
     font-family: arial;
     display: table-cell;
     text-align: center;
@@ -409,7 +409,7 @@ main .post-content .post-title a{
       width: 12px;
       height: 12px;
       content: "";
-      border: 2px solid white;
+      border: 2px solid  #e3dddc;
       border-width: 0px 0 2px 2px;
   }
   
@@ -455,11 +455,11 @@ main .post-content .post-title a{
       
     }
     .p1{
-        color: white;
+        color:  #e3dddc;
     }
     .owl-theme .owl-nav [class*='owl-']:hover{
         background: transparent;
-        color: white;
+        color:  #e3dddc;
     }
     .nav{
         background: #1e1f23;
@@ -515,6 +515,11 @@ main .post-content .post-title a{
     }
 
 }
+
+@media only screen and (min-width: 1000px){
+    main .blog{
+        height: 80vh;
+    }
 
 
 
