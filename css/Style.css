@@ -6,6 +6,7 @@ html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
   .p1{
@@ -194,11 +195,11 @@ padding: 10px;
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image2.jpg');
-    background-size: cover;
-    height: 110vh;
+    background: url('../assets/Background-image.jpg');
+    height: 120vh;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 main .site-title .site-background{
@@ -227,7 +228,7 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../assets/Abract02.png');
+    background: url('../assets/Abract.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 110vh;
@@ -445,6 +446,26 @@ main .post-content .post-title a{
     }
   }
 /*--x-----scroll down*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0BD4EC;
+    color: #efefef;
+    padding: 15px;
+    border-radius: 50%;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
 
 
 /* -------x-------- Site Content --------x-------*/
