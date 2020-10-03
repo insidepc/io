@@ -21,6 +21,7 @@ $(document).ready(function () {
     /** click event on toggle menu */
     $toggleCollapse.click(function () {
         $nav.toggleClass('collapse');
+        
     })
 
     // owl-crousel for blog
@@ -66,3 +67,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+$(".toggle-icons").click(function() {
+  $(".toggle-icons").toggleClass("rot");
+});

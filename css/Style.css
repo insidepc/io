@@ -128,18 +128,26 @@ p{
     width: 90%;
     cursor: pointer;
     display: none;
+    
 }
-
+.toggle-icons{
+    -webkit-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
 .nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
     padding: 20px;
     margin-right: -20px;
 }
+.rot {
+    transform: rotateX(180deg);
+  }
 
 .nav .toggle-collapse .toggle-icons i{
     font-size: 1.4rem;
     color: var(--text-gray);
+    
 }
 
 .collapse{
