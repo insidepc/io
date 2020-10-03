@@ -458,7 +458,8 @@ main .post-content .post-title a{
     outline: none;
     background-color: #0BD4EC;
     color: #efefef;
-    padding: 10px;
+    padding: 8px;
+    opacity: 90%;
     border-radius: 50%;
     
   }
