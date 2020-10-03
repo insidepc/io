@@ -43,13 +43,13 @@ $(document).ready(function () {
 });
 $(function() {
     $('.scroll-down').click (function() {
-      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'fast');
       return false;
     });
   });
 
   //Get the button
-var mybutton = document.getElementById("myBtn");
+var mybutton = document.getElementById("scroll-up");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -71,3 +71,8 @@ function topFunction() {
 $(".toggle-icons").click(function() {
   $(".toggle-icons").toggleClass("rot");
 });
+
+function myFunction() {
+  setTimeout(function(){ alert("If you are using a laptop or a PC please make sure that the website zoom is below 125%."); }, 1);
+}
+

@@ -109,6 +109,7 @@ p{
 
 /* --------------- navbar ----------------- */
 
+
 .nav{
     background:  #e3dddc;
     padding: 0 2rem;
@@ -196,6 +197,7 @@ padding: 10px;
     color: #0f2862;
     
 }
+
 
 /* -------x------- navbar ---------x------- */
 
@@ -455,7 +457,7 @@ main .post-content .post-title a{
   }
 /*--x-----scroll down*/
 
-#myBtn {
+#scroll-up {
     display: none;
     position: fixed;
     bottom: 20px;
