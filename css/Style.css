@@ -458,7 +458,7 @@ main .post-content .post-title a{
     outline: none;
     background-color: #0BD4EC;
     color: #efefef;
-    padding: 8px;
+    padding: 12px;
     opacity: 90%;
     border-radius: 50%;
     
@@ -528,7 +528,12 @@ main .post-content .post-title a{
     .site-content .sidebar .popular-post .post-info{
         display: none !important;
     }
+    #myBtn {
+        padding: 9px;
+        opacity: 80%;
 
+
+    }
     
 
 }
