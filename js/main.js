@@ -73,6 +73,6 @@ $(".toggle-icons").click(function() {
 });
 
 function myFunction() {
-  setTimeout(function(){ alert("If you are using a laptop or a PC please make sure that the website zoom is below 125%."); }, 1);
+  setTimeout(function(){ alert("If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%."); }, 1);
 }
 

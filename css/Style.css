@@ -553,7 +553,7 @@ main .post-content .post-title a{
 
 @media only screen and (min-width: 1024px){
     main .blog{
-        height: 40vh;
+        height: 80vh;
     }
 
 }
@@ -580,6 +580,17 @@ main .post-content .post-title a{
         }
  }
 
+ @media only screen and (max-height: 1370px){
+    main .blog{
+        height: 40vh;
+    }
+}
+@media only screen and (max-height: 1024px){
+    main .blog{
+        height: 80vh;
+    }
+}
+
 
 /*        x      Viewport less then or equal to 750px       x     */
 
@@ -600,8 +611,15 @@ main .post-content .post-title a{
     nav .toggle-collapse{
         width: 80% !important;
     }
+} 
+
+@media only screen and (max-width: 380px){
+        main .blog{
+            height: 70vh;
+        }
 
 }
+
 @media only screen and (max-height: 720px){
     main .blog{
         height: 90vh;
@@ -609,11 +627,6 @@ main .post-content .post-title a{
 }
 
 /*        x      Viewport less then or equal to 520px       x     */
-@media only screen and (max-height: 825px){
-    main .blog{
-        height: 85vh;
-    }
-}
 @media only screen and (max-height: 720px){
     main .blog{
         height: 85vh;
