@@ -466,11 +466,9 @@ main .post-content .post-title a{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #0BD4EC;
-    color: #efefef;
+    color: #0BD4EC;
     padding: 12px;
-    opacity: 90%;
-    border-radius: 50%;
+    opacity: 70%;
     
   }
   
