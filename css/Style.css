@@ -399,8 +399,7 @@ main .post-content .post-title a{
   
   .scroll-down {
     opacity: 1;
-    -webkit-transition: all .5s ease-in 3s;
-    transition: all .5s ease-in 3s;
+    
   }
   
   .scroll-down {
@@ -470,7 +469,10 @@ main .post-content .post-title a{
     padding: 12px;
     opacity: 70%;
     
-  }
+}
+#scroll-up:hover{
+    opacity: 40%;
+}
   
 
 

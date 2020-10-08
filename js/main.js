@@ -73,6 +73,6 @@ $(".toggle-icons").click(function() {
 });
 
 function myFunction() {
-  setTimeout(function(){ alert("If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%."); }, 1);
+  setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%. 2-Dark theme works automatically if you switch your device theme to dark."); }, 1);
 }
 
