@@ -35,7 +35,12 @@ $(document).ready(function () {
         responsive: responsive
     });
 
-
+// click to scroll top
+$('.move-up span').click(function () {
+  $('html, body').animate({
+      scrollTop: 0
+  }, 1000);
+})
    
     // AOS Instance
     AOS.init();
@@ -52,7 +57,7 @@ $(function() {
 var mybutton = document.getElementById("scroll-up");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction(20)};
 
 function scrollFunction() {
   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
