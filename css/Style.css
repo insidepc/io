@@ -464,6 +464,7 @@ main .post-content .post-title a{
     bottom: 20px;
     right: 30px;
     font-size: 18px;
+    z-index: 99;
     border: none;
     outline: none;
     color: #0BD4EC;
