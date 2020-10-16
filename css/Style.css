@@ -238,14 +238,15 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('#');
+    background: url('../pics&imgs/Background-image2.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 110vh;
     width: 100%;
     background-size: 70%;
-    background-position-x: 700px;
-    background-position-y: -220px;
+    background-position-x: px;
+    background-position-y: ;
+    background-size: cover;
 }
 
 main .blog .blog-post{
