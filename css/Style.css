@@ -554,9 +554,9 @@ main .post-content .post-title a{
 
 /*              Viewport less then or equal to 750px            */
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1000px){
     main .blog{
-        height: 40vh;
+        height: 70vh;
     }
 
 }
