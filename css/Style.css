@@ -613,6 +613,10 @@ main .post-content .post-title a{
         main .blog{
             height: 70vh;
         }
+        .footer-h{
+          font-size: 13px;
+          padding: 15px;
+  }
 
 }
 
