@@ -152,7 +152,7 @@ p{
 }
 
 .collapse{
-    height: 290px;
+    height: 320px;
 }
 
 .nav .nav-items{
@@ -186,7 +186,7 @@ padding: 10px;
 }
 
 .nav .social{
-    padding: 10px 50px
+    padding: 10px 10px
 }
 
 .nav .social i{
@@ -399,8 +399,6 @@ main .post-content .post-title a{
  
  .scroll-down {
    opacity: 1;
-   -webkit-transition: all .5s ease-in 3s;
-   transition: all .5s ease-in 3s;
  }
  
  .scroll-down {
@@ -417,8 +415,7 @@ main .post-content .post-title a{
    z-index: 2;
    -webkit-animation: bounce 2s infinite 2s;
    animation: bounce 2s infinite 2s;
-   -webkit-transition: all .2s ease-in;
-   transition: all .2s ease-in;
+  
  }
  
  .scroll-down:before {

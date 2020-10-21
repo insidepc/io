@@ -39,7 +39,7 @@ $(document).ready(function () {
 $('.move-up span').click(function () {
   $('html, body').animate({
       scrollTop: 0
-  }, 1000);
+  }, 8);
 })
    
     // AOS Instance
@@ -60,7 +60,7 @@ var mybutton = document.getElementById("scroll-up");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -83,3 +83,17 @@ function myFunction() {
   setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%. 2-Dark theme works automatically if you switch your device theme to dark."); }, 1);
 }
 
+//scroll down buttoms
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 80, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
