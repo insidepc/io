@@ -36,33 +36,22 @@ $(document).ready(function () {
 $('.move-up span').click(function () {
   $('html, body').animate({
       scrollTop: 0
-  }, 8);
+  }, 0);
 })
-    AOS.init();
+    AOS.init(0);
 
 });
-$(function() {
-    $('.scroll-down').click (function() {
-      $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'fast');
-      return false;
-    });
-  });
+
 var mybutton = document.getElementById("scroll-up");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
   }
 }
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
 
 
 $(".toggle-icons").click(function() {
@@ -70,20 +59,26 @@ $(".toggle-icons").click(function() {
 });
 
 function myFunction() {
-  setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%./ 2-Dark theme works automatically if you switch your device theme to dark./ 3-Sometimes the buttons dont work from the first click please try to click them one more time"); }, 1);
+  setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%./ 2-Dark theme works automatically if you switch your device theme to dark."); }, 1);
 }
 
-//scroll down buttoms
 $(document).ready(function(){
+
   $("a").on('click', function(event) {
-    if (this.hash !== "") {
+
+    if (this.hash !== "0") {
+
       event.preventDefault();
+
+      // Store hash
       var hash = this.hash;
+
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 80, function(){
+      }, 650, function(){
+
         window.location.hash = hash;
       });
-    } 
+    }
   });
 });
