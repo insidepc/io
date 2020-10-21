@@ -18,13 +18,11 @@ $(document).ready(function () {
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
 
-    /** click event on toggle menu */
     $toggleCollapse.click(function () {
         $nav.toggleClass('collapse');
         
     })
 
-    // owl-crousel for blog
     $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: false,
@@ -35,14 +33,11 @@ $(document).ready(function () {
         responsive: responsive
     });
 
-// click to scroll top
 $('.move-up span').click(function () {
   $('html, body').animate({
       scrollTop: 0
   }, 8);
 })
-   
-    // AOS Instance
     AOS.init();
 
 });
@@ -52,11 +47,7 @@ $(function() {
       return false;
     });
   });
-
-  //Get the button
 var mybutton = document.getElementById("scroll-up");
-
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -67,7 +58,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -80,7 +70,7 @@ $(".toggle-icons").click(function() {
 });
 
 function myFunction() {
-  setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%. 2-Dark theme works automatically if you switch your device theme to dark."); }, 1);
+  setTimeout(function(){ alert("1-If you are using a laptop or a PC please make sure that the website zoom is between 70%-125%./ 2-Dark theme works automatically if you switch your device theme to dark./ 3-Sometimes the buttons dont work from the first click please try to click them one more time"); }, 1);
 }
 
 //scroll down buttoms
