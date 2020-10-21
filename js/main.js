@@ -75,7 +75,7 @@ $(document).ready(function(){
 
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 650, function(){
+      }, 550, function(){
 
         window.location.hash = hash;
       });
