@@ -152,7 +152,7 @@ p{
 }
 
 .collapse{
-    height: 320px;
+    height: 305px;
 }
 
 .nav .nav-items{
@@ -632,4 +632,17 @@ main .post-content .post-title a{
         height: 85vh;
     }
 }
+@media only screen and (max-aspect-ratio: 19/9){
+    main .blog{
+        height: 85vh;
+    }
+}
+@media only screen and (max-aspect-ratio: 16/9){
+    main .blog{
+        height: 80vh;
+    }
+}
+
+
+
 
